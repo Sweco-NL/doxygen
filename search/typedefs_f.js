@@ -5,7 +5,7 @@ var searchData=
   ['searchindexmap_2',['SearchIndexMap',['../dd/de5/searchindex__js_8h.html#a6fe653d20eef95da0fd767e131b796b7',1,'searchindex_js.h']]],
   ['searchindexvariant_3',['SearchIndexVariant',['../d8/d4d/class_search_index_intf.html#a46d7403ced815126c0bfa372f94abdeb',1,'SearchIndexIntf']]],
   ['sectioninfovec_4',['SectionInfoVec',['../d1/df9/class_section_refs.html#a9204a780b875d8cf0964e52ba795aa14',1,'SectionRefs']]],
-  ['size_5ftype_5',['size_type',['../d1/d7d/class_member_vector.html#a50361ae2e3c9cdc4d28f47a65b2d264a',1,'MemberVector']]],
+  ['sidata_5',['SIData',['../d2/dc1/class_s_i_data_collection.html#a4c3e10a26e7f1a0713f71cad4424b055',1,'SIDataCollection']]],
   ['startdoctype_6',['StartDocType',['../dc/dea/class_x_m_l_handlers.html#a9e5f0a29ad7b6d7b436ee85f91489928',1,'XMLHandlers']]],
   ['startelementtype_7',['StartElementType',['../dc/dea/class_x_m_l_handlers.html#a64536885798db372a91fd0cda75cf79a',1,'XMLHandlers']]],
   ['stringmap_8',['StringMap',['../d5/d75/containers_8h.html#a873c44d3c59f807466bccf9641063c6f',1,'containers.h']]],

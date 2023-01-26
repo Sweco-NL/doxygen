@@ -18,13 +18,22 @@ var hierarchy =
     [ "TemplateFilterFactory::AutoRegister< T >", "d4/d67/class_template_filter_factory_1_1_auto_register.html", null ],
     [ "TemplateNodeFactory::AutoRegister< T >", "dd/d26/class_template_node_factory_1_1_auto_register.html", null ],
     [ "AutoTimeKeeper", "df/d45/class_auto_time_keeper.html", null ],
-    [ "AutoTrace", "d5/dca/class_auto_trace.html", null ],
     [ "Base", null, [
       [ "DefinitionAliasMixin< Base >", "d8/d83/class_definition_alias_mixin.html", null ],
       [ "DefinitionMixin< Base >", "dd/d10/class_definition_mixin.html", null ]
     ] ],
     [ "BaseClassDef", "d1/d06/struct_base_class_def.html", null ],
     [ "BaseInfo", "de/d64/struct_base_info.html", null ],
+    [ "BaseOutputDocInterface", "df/d27/class_base_output_doc_interface.html", [
+      [ "OutputGenerator", "d3/d8e/class_output_generator.html", [
+        [ "DocbookGenerator", "d1/d72/class_docbook_generator.html", null ],
+        [ "HtmlGenerator", "d7/d41/class_html_generator.html", null ],
+        [ "LatexGenerator", "d3/d77/class_latex_generator.html", null ],
+        [ "ManGenerator", "de/da5/class_man_generator.html", null ],
+        [ "RTFGenerator", "d0/da4/class_r_t_f_generator.html", null ]
+      ] ],
+      [ "OutputList", "df/dc8/class_output_list.html", null ]
+    ] ],
     [ "BodyInfo", "db/dab/struct_body_info.html", null ],
     [ "BriefInfo", "d0/da7/struct_brief_info.html", null ],
     [ "BufStr", "d5/d64/class_buf_str.html", null ],
@@ -383,7 +392,6 @@ var hierarchy =
     [ "CallContext::Ctx", "d0/d35/struct_call_context_1_1_ctx.html", null ],
     [ "DateTimeField", "df/dae/struct_date_time_field.html", null ],
     [ "Debug", "da/d7d/class_debug.html", null ],
-    [ "DebugLex", "d8/d00/class_debug_lex.html", null ],
     [ "IndexIntf::decContentsDepth< T >", "d6/d1d/struct_index_intf_1_1dec_contents_depth.html", null ],
     [ "declinfoYY_state", "da/d1f/structdeclinfo_y_y__state.html", null ],
     [ "defargsYY_state", "de/dcd/structdefargs_y_y__state.html", null ],
@@ -668,17 +676,6 @@ var hierarchy =
     [ "FindFileCacheElem", "d4/d2f/struct_find_file_cache_elem.html", null ],
     [ "FlowChart", "db/d1e/class_flow_chart.html", null ],
     [ "FmhlInfo", "d9/de4/struct_fmhl_info.html", null ],
-    [ "fmt::formatter< T >", "db/d75/structfmt_1_1formatter.html", null ],
-    [ "fmt::formatter< std::string >", "db/d75/structfmt_1_1formatter.html", [
-      [ "fmt::formatter< MemberType >", "d9/d4a/structfmt_1_1formatter_3_01_member_type_01_4.html", null ],
-      [ "fmt::formatter< MethodTypes >", "d2/d84/structfmt_1_1formatter_3_01_method_types_01_4.html", null ],
-      [ "fmt::formatter< Protection >", "d3/d53/structfmt_1_1formatter_3_01_protection_01_4.html", null ],
-      [ "fmt::formatter< QCString >", "d1/dc4/structfmt_1_1formatter_3_01_q_c_string_01_4.html", null ],
-      [ "fmt::formatter< RelatesType >", "db/dff/structfmt_1_1formatter_3_01_relates_type_01_4.html", null ],
-      [ "fmt::formatter< Relationship >", "db/db7/structfmt_1_1formatter_3_01_relationship_01_4.html", null ],
-      [ "fmt::formatter< Specifier >", "db/dad/structfmt_1_1formatter_3_01_specifier_01_4.html", null ],
-      [ "fmt::formatter< SrcLangExt >", "df/dca/structfmt_1_1formatter_3_01_src_lang_ext_01_4.html", null ]
-    ] ],
     [ "Formula", "d2/db0/class_formula.html", null ],
     [ "FormulaManager", "d0/d6c/class_formula_manager.html", null ],
     [ "fortrancodeYY_state", "d9/de9/structfortrancode_y_y__state.html", null ],
@@ -790,10 +787,10 @@ var hierarchy =
       [ "DirDef::UsedDirLinkedMap", "dd/dd7/class_dir_def_1_1_used_dir_linked_map.html", null ]
     ] ],
     [ "LinkedRefMap< T, Hash, KeyEqual, Map >", "d2/db7/class_linked_ref_map.html", null ],
-    [ "LinkedRefMap< ClassDef >", "d2/db7/class_linked_ref_map.html", [
+    [ "LinkedRefMap< const ClassDef >", "d2/db7/class_linked_ref_map.html", [
       [ "ClassLinkedRefMap", "da/d08/class_class_linked_ref_map.html", null ]
     ] ],
-    [ "LinkedRefMap< ConceptDef >", "d2/db7/class_linked_ref_map.html", [
+    [ "LinkedRefMap< const ConceptDef >", "d2/db7/class_linked_ref_map.html", [
       [ "ConceptLinkedRefMap", "d4/daa/class_concept_linked_ref_map.html", null ]
     ] ],
     [ "LinkedRefMap< const Definition >", "d2/db7/class_linked_ref_map.html", null ],
@@ -806,7 +803,6 @@ var hierarchy =
     [ "LinkedRefMap< const PageDef >", "d2/db7/class_linked_ref_map.html", [
       [ "PageLinkedRefMap", "d9/de6/class_page_linked_ref_map.html", null ]
     ] ],
-    [ "LinkedRefMap< NamespaceDef >", "d2/db7/class_linked_ref_map.html", null ],
     [ "Markdown::LinkRef", "dd/dff/struct_markdown_1_1_link_ref.html", null ],
     [ "FilterAlphaIndex::ListElem", "d4/d6c/struct_filter_alpha_index_1_1_list_elem.html", null ],
     [ "FilterGroupBy::ListElem", "de/d96/struct_filter_group_by_1_1_list_elem.html", null ],
@@ -854,14 +850,6 @@ var hierarchy =
       [ "PythonOutlineParser", "dd/d49/class_python_outline_parser.html", null ],
       [ "VHDLOutlineParser", "df/d4b/class_v_h_d_l_outline_parser.html", null ]
     ] ],
-    [ "OutputGenerator", "d3/d8e/class_output_generator.html", [
-      [ "DocbookGenerator", "d1/d72/class_docbook_generator.html", null ],
-      [ "HtmlGenerator", "d7/d41/class_html_generator.html", null ],
-      [ "LatexGenerator", "d3/d77/class_latex_generator.html", null ],
-      [ "ManGenerator", "de/da5/class_man_generator.html", null ],
-      [ "RTFGenerator", "d0/da4/class_r_t_f_generator.html", null ]
-    ] ],
-    [ "OutputList", "df/dc8/class_output_list.html", null ],
     [ "vhdl::parser::ParseException", "d2/d2b/classvhdl_1_1parser_1_1_parse_exception.html", null ],
     [ "ParserManager", "d4/d0d/class_parser_manager.html", null ],
     [ "ParserManager::ParserPair", "df/d04/struct_parser_manager_1_1_parser_pair.html", null ],
@@ -1025,6 +1013,7 @@ var hierarchy =
     [ "vhdl::parser::VhdlParser::SharedState", "d9/da2/structvhdl_1_1parser_1_1_vhdl_parser_1_1_shared_state.html", null ],
     [ "SIData_CurrentDoc", "d0/d9d/struct_s_i_data___current_doc.html", null ],
     [ "SIData_Word", "d7/def/struct_s_i_data___word.html", null ],
+    [ "SIDataCollection", "d2/dc1/class_s_i_data_collection.html", null ],
     [ "SourceLinkInfo", "dc/dc2/struct_source_link_info.html", null ],
     [ "SpecFormat", "d5/dfd/struct_spec_format.html", null ],
     [ "sqlcodeYY_state", "da/d7b/structsqlcode_y_y__state.html", null ],
@@ -1254,78 +1243,77 @@ var hierarchy =
       [ "vhdl::parser::VhdlParserTokenManager", "d4/d48/classvhdl_1_1parser_1_1_vhdl_parser_token_manager.html", null ]
     ] ],
     [ "TooltipManager", "d5/dae/class_tooltip_manager.html", null ],
+    [ "Trace", "dd/db7/class_trace.html", null ],
     [ "Translator", "d8/dfb/class_translator.html", [
       [ "TranslatorAdapterBase", "db/d6c/class_translator_adapter_base.html", [
-        [ "TranslatorAdapter_1_9_6", "db/d71/class_translator_adapter__1__9__6.html", [
-          [ "TranslatorAdapter_1_9_5", "dd/dba/class_translator_adapter__1__9__5.html", [
-            [ "TranslatorAdapter_1_9_4", "d0/d33/class_translator_adapter__1__9__4.html", [
-              [ "TranslatorAdapter_1_9_2", "d3/d2e/class_translator_adapter__1__9__2.html", [
-                [ "TranslatorAdapter_1_8_19", "de/dde/class_translator_adapter__1__8__19.html", [
-                  [ "TranslatorAdapter_1_8_15", "d4/d2e/class_translator_adapter__1__8__15.html", [
-                    [ "TranslatorAdapter_1_8_4", "de/d2f/class_translator_adapter__1__8__4.html", [
-                      [ "TranslatorAdapter_1_8_2", "d2/d75/class_translator_adapter__1__8__2.html", [
-                        [ "TranslatorAdapter_1_8_0", "de/d49/class_translator_adapter__1__8__0.html", [
-                          [ "TranslatorAdapter_1_7_5", "da/d24/class_translator_adapter__1__7__5.html", [
-                            [ "TranslatorAdapter_1_6_0", "d3/da1/class_translator_adapter__1__6__0.html", [
-                              [ "TranslatorAdapter_1_4_6", "d4/d2b/class_translator_adapter__1__4__6.html", [
-                                [ "TranslatorArabic", "d3/de9/class_translator_arabic.html", null ],
-                                [ "TranslatorLithuanian", "dc/d53/class_translator_lithuanian.html", null ],
-                                [ "TranslatorNorwegian", "dd/d38/class_translator_norwegian.html", null ],
-                                [ "TranslatorSlovene", "dd/d0b/class_translator_slovene.html", null ]
-                              ] ],
-                              [ "TranslatorAfrikaans", "d3/d65/class_translator_afrikaans.html", null ],
-                              [ "TranslatorFinnish", "de/df7/class_translator_finnish.html", null ],
-                              [ "TranslatorMacedonian", "d9/ddf/class_translator_macedonian.html", null ],
-                              [ "TranslatorSerbian", "d5/d0a/class_translator_serbian.html", null ],
-                              [ "TranslatorSerbianCyrillic", "dc/d03/class_translator_serbian_cyrillic.html", null ],
-                              [ "TranslatorVietnamese", "df/d20/class_translator_vietnamese.html", null ]
+        [ "TranslatorAdapter_1_9_5", "dd/dba/class_translator_adapter__1__9__5.html", [
+          [ "TranslatorAdapter_1_9_4", "d0/d33/class_translator_adapter__1__9__4.html", [
+            [ "TranslatorAdapter_1_9_2", "d3/d2e/class_translator_adapter__1__9__2.html", [
+              [ "TranslatorAdapter_1_8_19", "de/dde/class_translator_adapter__1__8__19.html", [
+                [ "TranslatorAdapter_1_8_15", "d4/d2e/class_translator_adapter__1__8__15.html", [
+                  [ "TranslatorAdapter_1_8_4", "de/d2f/class_translator_adapter__1__8__4.html", [
+                    [ "TranslatorAdapter_1_8_2", "d2/d75/class_translator_adapter__1__8__2.html", [
+                      [ "TranslatorAdapter_1_8_0", "de/d49/class_translator_adapter__1__8__0.html", [
+                        [ "TranslatorAdapter_1_7_5", "da/d24/class_translator_adapter__1__7__5.html", [
+                          [ "TranslatorAdapter_1_6_0", "d3/da1/class_translator_adapter__1__6__0.html", [
+                            [ "TranslatorAdapter_1_4_6", "d4/d2b/class_translator_adapter__1__4__6.html", [
+                              [ "TranslatorArabic", "d3/de9/class_translator_arabic.html", null ],
+                              [ "TranslatorLithuanian", "dc/d53/class_translator_lithuanian.html", null ],
+                              [ "TranslatorNorwegian", "dd/d38/class_translator_norwegian.html", null ],
+                              [ "TranslatorSlovene", "dd/d0b/class_translator_slovene.html", null ]
                             ] ],
-                            [ "TranslatorPersian", "d5/d43/class_translator_persian.html", null ],
-                            [ "TranslatorTurkish", "dd/d80/class_translator_turkish.html", null ]
+                            [ "TranslatorAfrikaans", "d3/d65/class_translator_afrikaans.html", null ],
+                            [ "TranslatorFinnish", "de/df7/class_translator_finnish.html", null ],
+                            [ "TranslatorMacedonian", "d9/ddf/class_translator_macedonian.html", null ],
+                            [ "TranslatorSerbian", "d5/d0a/class_translator_serbian.html", null ],
+                            [ "TranslatorSerbianCyrillic", "dc/d03/class_translator_serbian_cyrillic.html", null ],
+                            [ "TranslatorVietnamese", "df/d20/class_translator_vietnamese.html", null ]
                           ] ],
-                          [ "TranslatorArmenian", "da/db8/class_translator_armenian.html", null ],
-                          [ "TranslatorCatalan", "d9/dc1/class_translator_catalan.html", null ],
-                          [ "TranslatorDanish", "d7/d21/class_translator_danish.html", null ],
-                          [ "TranslatorIndonesian", "df/dc8/class_translator_indonesian.html", null ]
+                          [ "TranslatorPersian", "d5/d43/class_translator_persian.html", null ],
+                          [ "TranslatorTurkish", "dd/d80/class_translator_turkish.html", null ]
                         ] ],
-                        [ "TranslatorCroatian", "d9/d82/class_translator_croatian.html", null ],
-                        [ "TranslatorPolish", "de/d82/class_translator_polish.html", null ]
+                        [ "TranslatorArmenian", "da/db8/class_translator_armenian.html", null ],
+                        [ "TranslatorCatalan", "d9/dc1/class_translator_catalan.html", null ],
+                        [ "TranslatorDanish", "d7/d21/class_translator_danish.html", null ],
+                        [ "TranslatorIndonesian", "df/dc8/class_translator_indonesian.html", null ]
                       ] ],
-                      [ "TranslatorEsperanto", "d2/d07/class_translator_esperanto.html", null ],
-                      [ "TranslatorLatvian", "d8/d83/class_translator_latvian.html", null ],
-                      [ "TranslatorUkrainian", "d1/d56/class_translator_ukrainian.html", null ]
+                      [ "TranslatorCroatian", "d9/d82/class_translator_croatian.html", null ],
+                      [ "TranslatorPolish", "de/d82/class_translator_polish.html", null ]
                     ] ],
-                    [ "TranslatorChinesetraditional", "dd/df6/class_translator_chinesetraditional.html", null ],
-                    [ "TranslatorGerman", "d6/d07/class_translator_german.html", null ],
-                    [ "TranslatorHungarian", "db/d5f/class_translator_hungarian.html", null ],
-                    [ "TranslatorItalian", "d2/df8/class_translator_italian.html", null ],
-                    [ "TranslatorJapanese", "d1/d6a/class_translator_japanese.html", null ],
-                    [ "TranslatorKorean", "db/dcc/class_translator_korean.html", null ],
-                    [ "TranslatorRomanian", "da/d32/class_translator_romanian.html", null ],
-                    [ "TranslatorRussian", "d0/dab/class_translator_russian.html", null ],
-                    [ "TranslatorSlovak", "d2/d53/class_translator_slovak.html", null ]
-                  ] ]
-                ] ]
-              ] ],
-              [ "TranslatorBulgarian", "da/dbb/class_translator_bulgarian.html", null ],
-              [ "TranslatorChinese", "d6/db6/class_translator_chinese.html", null ],
-              [ "TranslatorGreek", "df/d75/class_translator_greek.html", null ],
-              [ "TranslatorHindi", "d1/d8a/class_translator_hindi.html", null ]
+                    [ "TranslatorEsperanto", "d2/d07/class_translator_esperanto.html", null ],
+                    [ "TranslatorLatvian", "d8/d83/class_translator_latvian.html", null ],
+                    [ "TranslatorUkrainian", "d1/d56/class_translator_ukrainian.html", null ]
+                  ] ],
+                  [ "TranslatorChinesetraditional", "dd/df6/class_translator_chinesetraditional.html", null ],
+                  [ "TranslatorGerman", "d6/d07/class_translator_german.html", null ],
+                  [ "TranslatorHungarian", "db/d5f/class_translator_hungarian.html", null ],
+                  [ "TranslatorItalian", "d2/df8/class_translator_italian.html", null ],
+                  [ "TranslatorJapanese", "d1/d6a/class_translator_japanese.html", null ],
+                  [ "TranslatorKorean", "db/dcc/class_translator_korean.html", null ],
+                  [ "TranslatorRomanian", "da/d32/class_translator_romanian.html", null ],
+                  [ "TranslatorRussian", "d0/dab/class_translator_russian.html", null ],
+                  [ "TranslatorSlovak", "d2/d53/class_translator_slovak.html", null ]
+                ] ],
+                [ "TranslatorSpanish", "dc/d44/class_translator_spanish.html", null ]
+              ] ]
             ] ],
-            [ "TranslatorFrench", "da/d1a/class_translator_french.html", null ]
+            [ "TranslatorBulgarian", "da/dbb/class_translator_bulgarian.html", null ],
+            [ "TranslatorChinese", "d6/db6/class_translator_chinese.html", null ],
+            [ "TranslatorGreek", "df/d75/class_translator_greek.html", null ],
+            [ "TranslatorHindi", "d1/d8a/class_translator_hindi.html", null ],
+            [ "TranslatorSwedish", "d5/d5c/class_translator_swedish.html", null ]
           ] ],
-          [ "TranslatorBrazilian", "d2/d4c/class_translator_brazilian.html", null ],
-          [ "TranslatorCzech", "dd/d8a/class_translator_czech.html", null ],
-          [ "TranslatorPortuguese", "dc/df2/class_translator_portuguese.html", null ],
-          [ "TranslatorSpanish", "dc/d44/class_translator_spanish.html", null ],
-          [ "TranslatorSwedish", "d5/d5c/class_translator_swedish.html", null ]
+          [ "TranslatorFrench", "da/d1a/class_translator_french.html", null ]
         ] ]
       ] ],
+      [ "TranslatorBrazilian", "d2/d4c/class_translator_brazilian.html", null ],
+      [ "TranslatorCzech", "dd/d8a/class_translator_czech.html", null ],
       [ "TranslatorDutch", "d9/d1b/class_translator_dutch.html", null ],
       [ "TranslatorEnglish", "d6/d78/class_translator_english.html", [
         [ "TranslatorJapaneseEn", "d0/d16/class_translator_japanese_en.html", null ],
         [ "TranslatorKoreanEn", "d0/d3a/class_translator_korean_en.html", null ]
-      ] ]
+      ] ],
+      [ "TranslatorPortuguese", "dc/df2/class_translator_portuguese.html", null ]
     ] ],
     [ "TemplateNodeTree::TreeContext", "de/d99/struct_template_node_tree_1_1_tree_context.html", null ],
     [ "TreeDiagram", "d4/dc4/class_tree_diagram.html", null ],

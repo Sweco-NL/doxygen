@@ -1,7 +1,8 @@
 var class_class_def_mutable =
 [
     [ "addExample", "d0/dc2/class_class_def_mutable.html#ae24cc8d57767aa81b004bc941de52e90", null ],
-    [ "addInnerCompound", "d0/dc2/class_class_def_mutable.html#a0be5c05b7fbe6faa09fc6b80793a97ed", null ],
+    [ "addGroupedInheritedMembers", "d0/dc2/class_class_def_mutable.html#a785f5cfb30497385fd978a035c335bb2", null ],
+    [ "addInnerCompound", "d0/dc2/class_class_def_mutable.html#a51368b2e8ca9891a4ba4f9cf13bcdb88", null ],
     [ "addListReferences", "d0/dc2/class_class_def_mutable.html#a8e6e94e29c2e6db09e38213e1525cd64", null ],
     [ "addMembersToMemberGroup", "d0/dc2/class_class_def_mutable.html#a1c90cadafedf7c5aabf13652c88929d9", null ],
     [ "addMembersToTemplateInstance", "d0/dc2/class_class_def_mutable.html#ad59851d3155ba565dfe74bbb919435cc", null ],
@@ -25,7 +26,7 @@ var class_class_def_mutable =
     [ "setAnonymousEnumType", "d0/dc2/class_class_def_mutable.html#abb17571af31f200efe39466c2e96dd30", null ],
     [ "setCategoryOf", "d0/dc2/class_class_def_mutable.html#aa29fd7952f1c8eb27ec028f721752ef2", null ],
     [ "setClassName", "d0/dc2/class_class_def_mutable.html#a0eed3eca2f487ea375047fa77f3fe322", null ],
-    [ "setClassSpecifier", "d0/dc2/class_class_def_mutable.html#a6caf080e1f4b33541b47a454c9ae4e96", null ],
+    [ "setClassSpecifier", "d0/dc2/class_class_def_mutable.html#a75509a25871fd66cd880bff396a086fd", null ],
     [ "setCompoundType", "d0/dc2/class_class_def_mutable.html#abd16aabc699670ad3d110122f710d944", null ],
     [ "setFileDef", "d0/dc2/class_class_def_mutable.html#a433e1fc2bf9d074747f0e7479d1c9653", null ],
     [ "setGroupDefForAllMembers", "d0/dc2/class_class_def_mutable.html#a587dbea5e2811999a97fcedbb5619eff", null ],
@@ -43,5 +44,15 @@ var class_class_def_mutable =
     [ "setTypeConstraints", "d0/dc2/class_class_def_mutable.html#aadad154d921a40f51f94b6a300fe95fc", null ],
     [ "setUsedOnly", "d0/dc2/class_class_def_mutable.html#a9ebbd33fff9657c55529319f4a355309", null ],
     [ "sortAllMembersList", "d0/dc2/class_class_def_mutable.html#ad3f331c1d12e6f5256e749173835b2b8", null ],
-    [ "sortMemberLists", "d0/dc2/class_class_def_mutable.html#aa5eb04ce72bf8939bc7f1e101fb385ad", null ]
+    [ "sortMemberLists", "d0/dc2/class_class_def_mutable.html#aa5eb04ce72bf8939bc7f1e101fb385ad", null ],
+    [ "writeDeclaration", "d0/dc2/class_class_def_mutable.html#ae75f6c570eaef9ca12848c1fed3a3494", null ],
+    [ "writeDocumentation", "d0/dc2/class_class_def_mutable.html#a1cf2cee2b4fc875308d2f3dffc45a83e", null ],
+    [ "writeDocumentationForInnerClasses", "d0/dc2/class_class_def_mutable.html#af0eba0ab21b01fc31bb9cf8fb2c1d1e7", null ],
+    [ "writeInlineDocumentation", "d0/dc2/class_class_def_mutable.html#a51d483e2dfa5353eb539a594e79c8d58", null ],
+    [ "writeMemberDeclarations", "d0/dc2/class_class_def_mutable.html#aff2ebc0f29ddb4ec88ede73953682276", null ],
+    [ "writeMemberList", "d0/dc2/class_class_def_mutable.html#af5ec2fcecd83972e7418725bf40f9345", null ],
+    [ "writeMemberPages", "d0/dc2/class_class_def_mutable.html#a7057026a4be6a181eae7ceac0e8a7f8e", null ],
+    [ "writeQuickMemberLinks", "d0/dc2/class_class_def_mutable.html#a04beb4319a59ad16b7684c345eb799b6", null ],
+    [ "writeSummaryLinks", "d0/dc2/class_class_def_mutable.html#a0ec43a9202e0339e6022c6d9ee6602ea", null ],
+    [ "writeTagFile", "d0/dc2/class_class_def_mutable.html#a954daa410c414dae7ff9571f618c389c", null ]
 ];
